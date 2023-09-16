@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,7 +12,7 @@
   <header>
     <div class="menu-container">
       <ul class="header-ul">
-        <li><span class="icon-container"><img src="./icons/home.svg" alt=""></span></li>
+        <li><span class="icon-container" id="icon" onclick="makeActive()"><img src="./icons/home.svg" alt=""></span></li>
         <li><span class="icon-container"><img src="./icons/work-history.svg" alt=""></span></li>
         <li><span class="icon-container"><img src="./icons/education.svg" alt=""></span></li>
         <li><span class="icon-container"><img src="./icons/contact.svg" alt=""></span></li>
@@ -69,7 +69,7 @@
           <span class="current-progress" style="width:12%"></span>
         </div>
       </div>
-      <hr class="breakline"/>
+      <hr class="breakline" />
       <div class="skills">
         <h4 style="font-weight:normal">Skills</h4>
         <div class="personal-details">
@@ -135,18 +135,216 @@
       <button class="download">Download CV</button>
     </div>
     <div class="content-main">
-      <div class="intro">
+      <div class="intro div-shadow-1 section">
         <div class="intro-headings">
           <span class="my-description">I am Sachidananda Dash
             <span class="colored-desc">Full stack</span> developer
           </span>
           <p class="detailed-desc">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis minima provident voluptates. Rerum omnis officia similique totam, tempore maiores laudantium.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis minima provident voluptates. Rerum omnis
+            officia similique totam, tempore maiores laudantium.
           </p>
           <button class="hireme">Hire me</button>
         </div>
         <div class="big-dp"></div>
       </div>
+      <div class="section">
+        <h2 class="heading">Education</h2>
+        <p class="sub-heading">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam necessitatibus qui
+          libero aliquam iusto labore odio sunt itaque hic minima.</p>
+        <div class="edu-div div-shadow-1">
+          <div class="edu-section">
+            <div class="edu-name">
+              <p class="edu-text-1">University name</p>
+              <p class="edu-text-2">Duration <span class="duration">Jan 2016 - Dec 2020</span></p>
+            </div>
+            <div class="edu-desc">
+              <p class="edu-text-1">Certification of Web Development</p>
+              <p class="edu-text-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit expedita
+                asperiores sit molestiae veritatis, quas, sint, dolorum harum qui numquam. Ea, illo voluptatem nemo
+                obcaecati tempora quaerat alias asperiores.</p>
+            </div>
+          </div>
+          <hr class="breakline">
+          <div class="edu-section">
+            <div class="edu-name">
+              <p class="edu-text-1">University name</p>
+              <p class="edu-text-2">Duration <span class="duration">Jan 2016 - Dec 2020</span></p>
+            </div>
+            <div class="edu-desc">
+              <p class="edu-text-1">Certification of Web Development</p>
+              <p class="edu-text-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit expedita
+                asperiores sit molestiae veritatis, quas, sint, dolorum harum qui numquam. Ea, illo voluptatem nemo
+                obcaecati tempora quaerat alias asperiores.</p>
+            </div>
+          </div>
+          <hr class="breakline">
+          <div class="edu-section">
+            <div class="edu-name">
+              <p class="edu-text-1">University name</p>
+              <p class="edu-text-2">Duration <span class="duration">Jan 2016 - Dec 2020</span></p>
+            </div>
+            <div class="edu-desc">
+              <p class="edu-text-1">Certification of Web Development</p>
+              <p class="edu-text-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit expedita
+                asperiores sit molestiae veritatis, quas, sint, dolorum harum qui numquam. Ea, illo voluptatem nemo
+                obcaecati tempora quaerat alias asperiores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="heading">Work History</h2>
+        <p class="sub-heading">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam necessitatibus qui
+          libero aliquam iusto labore odio sunt itaque hic minima.</p>
+        <div class="edu-div div-shadow-1">
+          <div class="edu-section">
+            <div class="edu-name">
+              <!-- job role -->
+              <p class="edu-text-1">Process Associate</p>
+              <!-- working timeline -->
+              <p class="edu-text-2">Duration <span class="duration">Jan 2016 - Dec 2020</span></p>
+            </div>
+            <div class="edu-desc">
+              <!-- company name -->
+              <p class="edu-text-1">Company name</p>
+              <!-- work details -->
+              <p class="edu-text-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit expedita
+                asperiores sit molestiae veritatis, quas, sint, dolorum harum qui numquam. Ea, illo voluptatem nemo
+                obcaecati tempora quaerat alias asperiores.</p>
+            </div>
+          </div>
+          <hr class="breakline">
+          <div class="edu-section">
+            <div class="edu-name">
+              <!-- job role -->
+              <p class="edu-text-1">Process Associate</p>
+              <!-- working timeline -->
+              <p class="edu-text-2">Duration <span class="duration">Jan 2016 - Dec 2020</span></p>
+            </div>
+            <div class="edu-desc">
+              <!-- company name -->
+              <p class="edu-text-1">Company name</p>
+              <!-- work details -->
+              <p class="edu-text-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit expedita
+                asperiores sit molestiae veritatis, quas, sint, dolorum harum qui numquam. Ea, illo voluptatem nemo
+                obcaecati tempora quaerat alias asperiores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="heading">Recommendation</h2>
+        <p class="sub-heading">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam necessitatibus qui
+          libero aliquam iusto labore odio sunt itaque hic minima.</p>
+        <div class="cards-container">
+            <div class="card">
+              <div class="star-rating">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+              </div>
+              <p class="comment-heading">Great Work !</p>
+              <p class="detailed-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cupiditate! Placeat accusamus repellendus nulla nostrum.</p>
+              <div class="testimonial">
+                <div class="test-dp"></div>
+                <div class="test-detail">
+                  <p class="test-name">James Gouse</p>
+                  <p class="test-title">Graphic designer</p>
+                </div>
+              </div>              
+            </div>
+            <div class="card">
+              <div class="star-rating">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+              </div>
+              <p class="comment-heading">Great Work !</p>
+              <p class="detailed-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cupiditate! Placeat accusamus repellendus nulla nostrum.</p>
+              <div class="testimonial">
+                <div class="test-dp"></div>
+                <div class="test-detail">
+                  <p class="test-name">James Gouse</p>
+                  <p class="test-title">Graphic designer</p>
+                </div>
+              </div>              
+            </div>
+            <div class="card">
+              <div class="star-rating">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+              </div>
+              <p class="comment-heading">Great Work !</p>
+              <p class="detailed-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cupiditate! Placeat accusamus repellendus nulla nostrum.</p>
+              <div class="testimonial">
+                <div class="test-dp"></div>
+                <div class="test-detail">
+                  <p class="test-name">James Gouse</p>
+                  <p class="test-title">Graphic designer</p>
+                </div>
+              </div>              
+            </div>
+            <div class="card">
+              <div class="star-rating">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+              </div>
+              <p class="comment-heading">Great Work !</p>
+              <p class="detailed-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cupiditate! Placeat accusamus repellendus nulla nostrum.</p>
+              <div class="testimonial">
+                <div class="test-dp"></div>
+                <div class="test-detail">
+                  <p class="test-name">James Gouse</p>
+                  <p class="test-title">Graphic designer</p>
+                </div>
+              </div>              
+            </div>
+            <div class="card">
+              <div class="star-rating">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+              </div>
+              <p class="comment-heading">Great Work !</p>
+              <p class="detailed-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cupiditate! Placeat accusamus repellendus nulla nostrum.</p>
+              <div class="testimonial">
+                <div class="test-dp"></div>
+                <div class="test-detail">
+                  <p class="test-name">James Gouse</p>
+                  <p class="test-title">Graphic designer</p>
+                </div>
+              </div>              
+            </div>
+            <div class="card">
+              <div class="star-rating">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+                <img src="./icons/star.svg" alt="" class="star">
+              </div>
+              <p class="comment-heading">Great Work !</p>
+              <p class="detailed-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cupiditate! Placeat accusamus repellendus nulla nostrum.</p>
+              <div class="testimonial">
+                <div class="test-dp"></div>
+                <div class="test-detail">
+                  <p class="test-name">James Gouse</p>
+                  <p class="test-title">Graphic designer</p>
+                </div>
+              </div>              
+            </div>
+            
+        </div>
+      </div>
+
+
     </div>
   </div>
 </body>

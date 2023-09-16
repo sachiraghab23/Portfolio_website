@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost:wght@600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost:wght@600&display=swap'); */
 
 * {
   margin: 0;
@@ -15,17 +15,18 @@ body {
 
 .menu-container {
   background-color: var(--primary);
-  height: 108px;
+  height: 90px;
   box-shadow: 0px 0px 2px 0px gray;
 }
 
-ul {
-  margin: 0;
+.header-ul{
+  padding: 15px 45px;
 }
 
-.header-ul>li {
-  padding: 40px;
+.header-ul>li{
+  /* padding: 20px; */
   display: inline-block;
+  margin:13px 27px;
 }
 
 .social-ul>li {
@@ -54,28 +55,29 @@ ul {
 
 .content-main {
   margin-left: 20px;
+  margin-bottom: 30px;
   width: 81%;
   /* background-color: var(--primary); */
 }
 
 .icon-container {
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   border-radius: 100%;
   background-color: var(--secondary);
-  padding: 10px;
+  padding: 9px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
 
-.icon-container:hover {
-  background-color: #d9d9d9;
-}
-
 .icon-container img {
   height: 25px;
+}
+
+.active{
+  background-color: var(--yellow);
 }
 
 .display-picture {
@@ -214,6 +216,7 @@ ul {
   width: 1140px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 8px;
 }
 
 .intro-headings {
@@ -340,9 +343,10 @@ ul {
 
 .duration {
   background-color: var(--yellow);
+  color:black;
   width: 111px;
   height: 18px;
-  color: var(--primary);
+  font-weight: 400;
   padding: 0 5px;
   font-size: 14px;
   margin-left: 10px;
@@ -390,7 +394,6 @@ ul {
 
 .testimonial{
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .test-dp{

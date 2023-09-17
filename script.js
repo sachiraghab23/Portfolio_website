@@ -12,7 +12,7 @@ window.onload = function (){
       this.className = this.className + " active";
       let level = this.id;
       window.scrollBy({
-        top: level * 500,
+        top: (level-1) * 400,
         left:0,
         behavior:"smooth"
       });

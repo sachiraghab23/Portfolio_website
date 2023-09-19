@@ -24,6 +24,10 @@ body {
   z-index:5;
 }
 
+.mobile-mydetails{
+  display:none;
+}
+
 .header-ul{
   padding: 15px 45px;
 }
@@ -210,6 +214,7 @@ body {
   background-color: var(--primary);
   padding: 49px 69px 0 57px;
   margin: 0 auto;
+  width: 1140px;
 }
 
 .div-shadow-1{

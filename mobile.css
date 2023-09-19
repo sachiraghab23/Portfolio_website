@@ -1,0 +1,271 @@
+* {
+  --primary: #fff;
+  --secondary: #f0f0f6;
+  --yellow: #ffb400;
+}
+
+@media screen and (max-width: 480px) {
+  .mobile-mydetails {
+    display: block;
+    width: 80%;
+    background-color: var(--primary);
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .mobile-display-picture {
+    width: 50px;
+    height: 50px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('./pictures/dp.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .mobile-personal-details,
+  .mobile-contact-details {
+    width: 50%;
+  }
+
+  .mobile-name-container,
+  .mobile-title-container {
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 12px;
+  }
+
+  .social-links {
+    margin-top: 5px;
+  }
+
+  .download {
+    width: 40%;
+  }
+
+  .side-nav {
+    display: none;
+    width: fit-content;
+  }
+
+  .content-main {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  .intro-headings {
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .my-description {
+    font-size: 24px;
+    line-height: 114%;
+  }
+
+  .detailed-desc {
+    width: 200px;
+    height: 110px;
+  }
+
+  .big-dp>img {
+    height: 100px;
+    width: 175px;
+    margin-top: 150px;
+  }
+
+  .hireme {
+    padding: 10px;
+  }
+
+  .heading {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .sub-heading {
+    width: 70%;
+    height: 50px;
+  }
+
+  .edu-div {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .edu-name {
+    width: 50%;
+  }
+
+  .edu-text-2 {
+    font-size: 14px;
+  }
+
+  .duration {
+    font-size: 12px;
+  }
+
+  .edu-desc {
+    width: 70%;
+  }
+
+  .edu-text-3 {
+    font-size: 14px;
+  }
+
+  .cards-container {
+    width: 80%;
+    overflow: scroll;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+  }
+
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-mydetails {
+    display: block;
+    width: 80%;
+    background-color: var(--primary);
+    height: 100px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .side-nav {
+    display: none;
+  }
+
+  .content-main {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  .intro-headings {
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .my-description {
+    font-size: 24px;
+    line-height: 114%;
+  }
+
+  .detailed-desc {
+    width: 200px;
+    height: 110px;
+  }
+
+  .big-dp>img {
+    height: 100px;
+    width: 175px;
+    margin-top: 150px;
+  }
+
+  .hireme {
+    padding: 10px;
+  }
+
+  .heading {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .sub-heading {
+    width: 70%;
+    height: 50px;
+  }
+
+  .edu-div {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .edu-name {
+    width: 50%;
+  }
+
+  .edu-text-2 {
+    font-size: 14px;
+  }
+
+  .duration {
+    font-size: 12px;
+  }
+
+  .edu-desc {
+    width: 70%;
+  }
+
+  .edu-text-3 {
+    font-size: 14px;
+  }
+
+  .cards-container {
+    width: 80%;
+    overflow: scroll;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+  }
+
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .mobile-mydetails {
+    display: block;
+    width: 80%;
+    background-color: var(--primary);
+    height: 100px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .side-nav {
+    display: none;
+  }
+
+  .big-dp>img {
+    width: 125px;
+  }
+
+  .detailed-desc {
+    width: 150px;
+    height: 150px;
+  }
+
+  .intro {
+    height: 350px;
+  }
+
+  .intro-headings {
+    margin-top: 20px;
+  }
+
+  .hireme {
+    padding: 5px;
+    font-size: 12px;
+  }
+}

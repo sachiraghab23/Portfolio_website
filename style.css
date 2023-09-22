@@ -100,7 +100,7 @@ header {
   height: 110px;
   background-color: var(--secondary);
   border-radius: 50%;
-  background-image: url('./pictures/dp.png');
+  background-image: url('./src/pictures/dp.png');
   background-size: 110px;
   background-repeat: no-repeat;
 }
@@ -194,11 +194,11 @@ header {
 }
 
 .star-fill {
-  background-image: url(./icons/rating-star-1.png);
+  background-image: url(./src/icons/rating-star-1.png);
 }
 
 .star-empty {
-  background-image: url(./icons/rating-star-2.png);
+  background-image: url(./src/icons/rating-star-2.png);
 }
 
 .current-progress {
@@ -237,7 +237,7 @@ header {
   display: inline-block;
   height: 15px;
   width: 15px;
-  background-image: url(./icons/download.svg);
+  background-image: url(./src/icons/download.svg);
   background-size: 14px;
   background-position: 2px 3px;
   background-repeat: no-repeat;
@@ -319,7 +319,7 @@ section {
 .big-dp {
   height: 312px;
   width: 18em;
-  background-image: url(./pictures/big-dp.png);
+  background-image: url(./src/pictures/big-dp.png);
   background-size: 18em;
   background-position: 0px 0px;
   background-repeat: no-repeat;

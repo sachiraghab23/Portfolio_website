@@ -4,268 +4,222 @@
   --yellow: #ffb400;
 }
 
-@media screen and (max-width: 480px) {
-  .mobile-mydetails {
-    display: block;
-    width: 80%;
-    background-color: var(--primary);
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .mobile-display-picture {
-    width: 50px;
-    height: 50px;
-    background-color: var(--secondary);
-    border-radius: 50%;
-    margin: 0 auto;
-    background-image: url('./pictures/dp.jpeg');
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .mobile-personal-details,
-  .mobile-contact-details {
-    width: 50%;
-  }
-
-  .mobile-name-container,
-  .mobile-title-container {
-    margin: 0 auto;
-    width: fit-content;
-    font-size: 12px;
-  }
-
-  .social-links {
-    margin-top: 5px;
-  }
-
-  .download {
-    width: 40%;
-  }
-
-  .side-nav {
-    display: none;
-    width: fit-content;
-  }
-
-  .content-main {
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .intro {
-    width: 90%;
-  }
-
-  .intro-headings {
-    margin-left: 20px;
-    margin-top: 50px;
-  }
-
-  .my-description {
-    font-size: 24px;
-    line-height: 114%;
-  }
-
-  .detailed-desc {
-    width: 200px;
-    height: 110px;
-  }
-
-  .big-dp>img {
-    height: 100px;
-    width: 175px;
-    margin-top: 150px;
-  }
-
-  .hireme {
-    padding: 10px;
-  }
-
-  .heading {
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-
-  .sub-heading {
-    width: 70%;
-    height: 50px;
-  }
-
-  .edu-div {
-    width: 80%;
-    padding: 15px;
-  }
-
-  .edu-name {
-    width: 50%;
-  }
-
-  .edu-text-2 {
-    font-size: 14px;
-  }
-
-  .duration {
-    font-size: 12px;
-  }
-
-  .edu-desc {
-    width: 70%;
-  }
-
-  .edu-text-3 {
-    font-size: 14px;
-  }
-
-  .cards-container {
-    width: 80%;
-    overflow: scroll;
-    scroll-snap-align: center;
-    scroll-behavior: smooth;
-  }
-
-  .card {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .mobile-mydetails {
-    display: block;
-    width: 80%;
-    background-color: var(--primary);
-    height: 100px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+  .header-ul {
+    width: 65%;
   }
 
   .side-nav {
     display: none;
   }
 
-  .content-main {
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .intro {
-    width: 90%;
-  }
-
-  .intro-headings {
-    margin-left: 20px;
+  .mobile-mydetails {
+    height: fit-content;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary);
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 31px;
   }
 
-  .my-description {
-    font-size: 24px;
-    line-height: 114%;
+  .mobile-details-heading {
+    display: block;
   }
 
-  .detailed-desc {
-    width: 200px;
-    height: 110px;
-  }
-
-  .big-dp>img {
-    height: 100px;
-    width: 175px;
-    margin-top: 150px;
-  }
-
-  .hireme {
-    padding: 10px;
-  }
-
-  .heading {
+  .display-picture {
     margin-top: 20px;
-    margin-bottom: 5px;
   }
 
-  .sub-heading {
-    width: 70%;
-    height: 50px;
+  .name-container {
+    font-size: 1.5em;
   }
 
-  .edu-div {
-    width: 80%;
-    padding: 15px;
+  .title-container {
+    font-size: 1.3em;
   }
 
-  .edu-name {
-    width: 50%;
+  .social-ul>li {
+    margin: 0px 2px;
   }
 
-  .edu-text-2 {
-    font-size: 14px;
+  .sub-section {
+    width: 85%;
+
   }
 
-  .duration {
-    font-size: 12px;
+  .sub-section h4 {
+    font-size: 1.6em;
   }
 
-  .edu-desc {
-    width: 70%;
+  .language-details,
+  .skill-details {
+    font-size: 1.35em;
   }
 
-  .edu-text-3 {
-    font-size: 14px;
+  .progress {
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .cards-container {
-    width: 80%;
+  .progress div {
+    height: 1.2em;
+    width: 1.2em;
+    background-size: 1.2em;
+  }
+
+  .big-dp {
+    margin-top: 276px;
+    height: 276px;
+    width: 276px;
+    background-position: -16px 0;
+    background-size: 276px;
+  }
+
+  .section-div {
+    padding: 34px 37px;
+  }
+
+  .study-subjects,
+  .work-details {
+    font-size: 1.25em;
+    line-height: 22px;
+  }
+
+  .company-name {
+    font-size: 1.3em;
+  }
+
+  .project-cards-container {
+    width: 75vw;
     overflow: scroll;
-    scroll-snap-align: center;
-    scroll-behavior: smooth;
+    align-items: center;
   }
 
-  .card {
-    margin-left: 10px;
-    margin-right: 10px;
+  .project-section {
+    height: 380px;
+    width: 22em;
+    font-size: 1em;
+  }
+
+  .project-details {
+    font-size: 1.1em;
+    overflow: scroll;
+    scrollbar-width: 5px;
+  }
+
+  .contact-details-container {
+    height: 150px;
+    width: 80vw;
+    padding: 13px 17px;
+  }
+
+  .contact-section {
+    font-size: 1.05em;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .mobile-mydetails {
-    display: block;
-    width: 80%;
-    background-color: var(--primary);
-    height: 100px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (max-width: 480px) {
+  .menu-container {
+    height: 70px;
   }
 
-  .side-nav {
+  .header-ul {
+    width: 85%;
+  }
+
+  .icon-container {
+    height: 35px;
+    width: 35px;
+  }
+
+  .icon-container img {
+    height: 22px;
+  }
+
+  .content-container {
+    margin-top: 85px;
+  }
+
+  .content-main {
+    width: 100%;
+  }
+
+  section {
+    width: 85vw;
+  }
+
+  #intro {
     display: none;
   }
 
-  .big-dp>img {
-    width: 125px;
+  #intro-mobile {
+    padding: 15px 18px;
+    height: fit-content;
+    display: flex;
+    background-color: var(--primary);
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
   }
 
-  .detailed-desc {
-    width: 150px;
-    height: 150px;
-  }
-
-  .intro {
-    height: 350px;
+  .big-dp {
+    margin-top: 1.2em;
+    height: 17em;
+    width: 14em;
+    background-size: 15em;
   }
 
   .intro-headings {
-    margin-top: 20px;
+    width: 85%;
+    align-items: center;
   }
 
-  .hireme {
-    padding: 5px;
-    font-size: 12px;
+  .my-description {
+    font-size: 26px;
+  }
+
+  .detailed-desc {
+    width: 85%;
+    font-size: 17px;
+  }
+
+  .section-heading {
+    font-size: 30px;
+  }
+
+  .mobile-mydetails {
+    padding: 8px 20px;
+    margin-top: 36px;
+  }
+
+  .name-container {
+    font-size: 1.3em;
+  }
+
+  .title-container {
+    font-size: 1.1em;
+  }
+
+  .sub-section h4 {
+    font-size: 1.4em;
+  }
+
+  .language-details,
+  .skill-details {
+    font-size: 1.175em;
+  }
+
+  .progress {
+    width: 200px;
+  }
+
+  .progress div {
+    font-size: 14px;
   }
 }
